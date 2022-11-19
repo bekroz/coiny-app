@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct BitcoinView: View {
+    let image: String
+    
     var body: some View {
-        Image(systemName: "bitcoinsign.circle.fill")
+        KFImage(URL(string: image))
             .resizable()
             .frame(width: 32, height: 32)
             .foregroundColor(.orange)
@@ -17,8 +20,8 @@ struct BitcoinView: View {
     }
 }
 
-struct BitcoinView_Previews: PreviewProvider {
-    static var previews: some View {
-        BitcoinView()
-    }
-}
+//struct BitcoinView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        BitcoinView(image: image)
+//    }
+//}

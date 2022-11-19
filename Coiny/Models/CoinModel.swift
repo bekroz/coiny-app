@@ -1,5 +1,5 @@
 //
-//  Coin.swift
+//  CoinModel.swift
 //  Coiny
 //
 //  Created by BekRoz on 19/11/22.
@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct Coin: Codable,Identifiable {
+struct Coin: Codable, Identifiable {
     let id, symbol, name: String
     let image: String
-    let currentPrice:Double
-    let marketCapRank:Int
+    let currentPrice: Double
+    let marketCapRank: Int
     let marketCap, fullyDilutedValuation: Double?
     let totalVolume, high24H: Double?
-    let low24H, priceChange24H:Double?
+    let low24H, priceChange24H: Double?
     let priceChangePercentage24H, marketCapChange24H: Double
     let marketCapChangePercentage24H: Double?
     let circulatingSupply, totalSupply, maxSupply, ath: Double?
