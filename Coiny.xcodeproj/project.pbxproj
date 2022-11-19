@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3449EF22928DBAB00021FA7 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3449EF12928DBAB00021FA7 /* Coin.swift */; };
+		F38CA8F12927F750004F958F /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CA8F02927F750004F958F /* AllCoinsView.swift */; };
+		F38CA8F32927F826004F958F /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CA8F22927F826004F958F /* CoinRowView.swift */; };
+		F38CA8F52927F8E9004F958F /* BitcoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CA8F42927F8E9004F958F /* BitcoinView.swift */; };
+		F38CA8F8292802D6004F958F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CA8F7292802D6004F958F /* HomeViewModel.swift */; };
 		F38DD3B32926B68100A1DFAB /* CoinyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DD3B22926B68100A1DFAB /* CoinyApp.swift */; };
 		F38DD3B52926B68100A1DFAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DD3B42926B68100A1DFAB /* ContentView.swift */; };
 		F38DD3B72926B68200A1DFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38DD3B62926B68200A1DFAB /* Assets.xcassets */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3449EF12928DBAB00021FA7 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		F38CA8F02927F750004F958F /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
+		F38CA8F22927F826004F958F /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		F38CA8F42927F8E9004F958F /* BitcoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinView.swift; sourceTree = "<group>"; };
+		F38CA8F7292802D6004F958F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		F38DD3AF2926B68100A1DFAB /* Coiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38DD3B22926B68100A1DFAB /* CoinyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinyApp.swift; sourceTree = "<group>"; };
 		F38DD3B42926B68100A1DFAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F38CA8F6292802C7004F958F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F38CA8F7292802D6004F958F /* HomeViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F38DD3A62926B68100A1DFAB = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +104,7 @@
 		F38DD3C12926B6B700A1DFAB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F3449EF12928DBAB00021FA7 /* Coin.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,6 +128,7 @@
 		F38DD3C52926B6CC00A1DFAB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F38CA8F6292802C7004F958F /* Models */,
 				F38DD3C72926B70C00A1DFAB /* ViewModels */,
 				F38DD3C62926B70800A1DFAB /* Views */,
 			);
@@ -121,6 +141,9 @@
 				F38DD3CC2926B73E00A1DFAB /* HomeView.swift */,
 				F38DD3CE2926B86100A1DFAB /* TopMoversView.swift */,
 				F38DD3D02926B86A00A1DFAB /* TopMoversItemView.swift */,
+				F38CA8F02927F750004F958F /* AllCoinsView.swift */,
+				F38CA8F42927F8E9004F958F /* BitcoinView.swift */,
+				F38CA8F22927F826004F958F /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,10 +226,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F38DD3CF2926B86100A1DFAB /* TopMoversView.swift in Sources */,
+				F38CA8F8292802D6004F958F /* HomeViewModel.swift in Sources */,
+				F38CA8F12927F750004F958F /* AllCoinsView.swift in Sources */,
 				F38DD3CD2926B73E00A1DFAB /* HomeView.swift in Sources */,
 				F38DD3B52926B68100A1DFAB /* ContentView.swift in Sources */,
+				F3449EF22928DBAB00021FA7 /* Coin.swift in Sources */,
 				F38DD3B32926B68100A1DFAB /* CoinyApp.swift in Sources */,
+				F38CA8F32927F826004F958F /* CoinRowView.swift in Sources */,
 				F38DD3D12926B86A00A1DFAB /* TopMoversItemView.swift in Sources */,
+				F38CA8F52927F8E9004F958F /* BitcoinView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

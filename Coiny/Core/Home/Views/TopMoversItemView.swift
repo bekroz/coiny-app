@@ -11,12 +11,7 @@ struct TopMoversItemView: View {
     var body: some View {
         VStack(alignment: .leading) {
             // MARK: Image
-            Image(systemName: "bitcoinsign.circle.fill")
-                .resizable()
-                .frame(width: 32, height: 32)
-                .foregroundColor(.orange)
-                .padding(.bottom, 8)
-            
+            BitcoinView()
             // MARK: Coin Info
             HStack(spacing: 2) {
                 Text("BTC")
